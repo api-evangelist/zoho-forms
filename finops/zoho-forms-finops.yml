@@ -1,0 +1,39 @@
+name: Zoho Forms FinOps
+description: Financial operations guidance for managing Zoho Forms costs, including plan selection, add-on purchasing, and cost optimization strategies.
+url: https://www.zoho.com/forms/pricing.html
+considerations:
+  - name: Submission Volume Monitoring
+    description: Track monthly form submission counts closely. Each plan has a hard cap on submissions per month. Exceeding limits requires upgrading the plan or purchasing the 10,000 submission add-on ($-variable/month) to avoid service interruption.
+    type: usage
+  - name: Storage Management
+    description: File storage limits range from 200 MB (Free) to 10 GB (Premium). Monitor file uploads in form responses to avoid hitting storage caps. Additional 5 GB storage blocks are available as recurring add-ons.
+    type: usage
+  - name: Annual vs Monthly Billing
+    description: Zoho Forms offers discounts for annual billing commitments versus monthly billing. Organizations with stable usage should evaluate annual plans to reduce overall spend.
+    type: billing
+  - name: User Seat Optimization
+    description: Plans are priced with bundled user counts (1, 10, 25, 100). Audit actual active users before upgrading to the next tier. Unused seats within a plan tier represent sunk cost.
+    type: optimization
+  - name: HIPAA Compliance Cost
+    description: HIPAA compliance is exclusively available on the Premium plan at $110/month. Healthcare organizations must account for this mandatory tier upgrade when handling protected health information via forms.
+    type: compliance
+  - name: Zoho One Bundle
+    description: Zoho Forms is included in the Zoho One all-in-one subscription. Organizations already using multiple Zoho products should evaluate whether Zoho One provides better cost efficiency than individual product subscriptions.
+    type: bundling
+  - name: API Call Budget
+    description: API usage is metered per user per day based on plan tier. High-volume API integrations should be aligned with a plan tier that provides sufficient daily API calls to avoid 429 throttling errors, which can disrupt automated workflows.
+    type: api
+  - name: Add-On Cost Tracking
+    description: One-time add-ons (PDF credits, AI credits) and recurring add-ons (submissions, storage, users) accumulate on top of base plan costs. Maintain a catalog of active add-ons and review quarterly to eliminate unused purchases.
+    type: optimization
+cost_drivers:
+  - name: Base Plan
+    description: Monthly or annual subscription fee determined by the selected plan tier.
+  - name: Submission Overages
+    description: Additional submission blocks (10,000/month) purchased when base plan limit is reached.
+  - name: Storage Overages
+    description: Additional storage blocks (5 GB/month) purchased when base plan storage is exhausted.
+  - name: PDF Credits
+    description: One-time credits consumed when generating PDF exports of form submissions.
+  - name: AI Credits
+    description: One-time credits consumed by AI-powered form generation and smart scan features.

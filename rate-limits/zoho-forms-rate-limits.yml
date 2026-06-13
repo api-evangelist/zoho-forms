@@ -1,0 +1,39 @@
+name: Zoho Forms API Rate Limits
+description: API rate limits for Zoho Forms, which uses the Zoho Creator API infrastructure. Limits are enforced per user per day and per minute, with concurrent request caps.
+url: https://www.zoho.com/creator/help/api/v2.1/api-limits.html
+limits:
+  - name: Per-Minute Throttle
+    description: Maximum API calls allowed per user per minute across all Zoho organizations the user belongs to. Returns HTTP 429 when exceeded.
+    value: 50
+    unit: calls per user per minute
+    scope: per-user
+  - name: Concurrent Requests
+    description: Maximum number of simultaneous API calls allowed per account at any point in time. Returns HTTP 429 when exceeded.
+    value: 6
+    unit: concurrent calls per account
+    scope: per-account
+  - name: Daily Developer API Limit - Free
+    description: Maximum developer API calls per day on the Free edition. Resets daily from 00:00 to 23:59 in the Super admin's timezone.
+    value: 250
+    unit: calls per day
+    plan: Free
+  - name: Daily Developer API Limit - Standard
+    description: Maximum developer API calls per user per day on the Standard plan.
+    value: 250
+    unit: calls per user per day
+    plan: Standard
+  - name: Daily Developer API Limit - Professional
+    description: Maximum developer API calls per user per day on the Professional plan.
+    value: 500
+    unit: calls per user per day
+    plan: Professional
+  - name: Daily Developer API Limit - Premium
+    description: Maximum developer API calls per user per day on the Premium plan.
+    value: 1000
+    unit: calls per user per day
+    plan: Premium
+notes:
+  - Publish APIs use per-IP tracking rather than per-user tracking for throttle and concurrent limits.
+  - Deluge integration tasks each consume one Developer API call toward the daily limit.
+  - HTTP 429 Too Many Requests is returned when any rate limit is exceeded.
+  - Daily limits reset based on the Super admin account timezone.
