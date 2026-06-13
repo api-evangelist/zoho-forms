@@ -1,0 +1,36 @@
+{
+  "url": "https://www.zoho.com/blog/forms",
+  "fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "Set it, forget it, and stop worrying about form availability!",
+      "url": "https://www.zoho.com/blog/forms/form-availability.html",
+      "date": "2025-02-28",
+      "description": "Addresses concerns about maintaining consistent form access and functionality."
+    },
+    {
+      "title": "Why secure data collection matters: Protect your business with Zoho Forms",
+      "url": "https://www.zoho.com/blog/forms/why-secure-data-collection-matters.html",
+      "date": "2025-02-27",
+      "description": "Explores importance of safeguarding information through secure collection methods."
+    },
+    {
+      "title": "Beyond the basics: Explore image upload options in Zoho Forms mobile app!",
+      "url": "https://www.zoho.com/blog/forms/image-upload-in-mobile-forms.html",
+      "date": "2025-02-26",
+      "description": "Details advanced image capture and upload capabilities available on mobile devices."
+    },
+    {
+      "title": "The rise of no-code solutions",
+      "url": "https://www.zoho.com/blog/forms/no-code-forms.html",
+      "date": "2025-01-29",
+      "description": "Examines growing trend toward code-free development platforms and workflows."
+    },
+    {
+      "title": "New in 2025: Transform PDFs and images into fillable forms",
+      "url": "https://www.zoho.com/blog/forms/pdf-forms.html",
+      "date": "2025-01-27",
+      "description": "Introduces feature converting existing documents into interactive, fillable form fields."
+    }
+  ]
+}

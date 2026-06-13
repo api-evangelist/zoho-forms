@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebAPI",
+  "name": "Zoho Forms API",
+  "description": "REST API for managing Zoho Forms resources including forms, submissions, entries, and reports. Enables programmatic form data retrieval, submission creation, field updates, and integration with the broader Zoho ecosystem via OAuth 2.0 authentication.",
+  "url": "https://www.zoho.com/forms/",
+  "documentation": "https://www.zoho.com/creator/help/api/v2.1/",
+  "termsOfService": "https://www.zoho.com/forms/privacy.html",
+  "provider": {
+    "@type": "Organization",
+    "name": "Zoho",
+    "url": "https://www.zoho.com",
+    "logo": "https://www.zoho.com/sites/zweb/images/zoho_general_pages/zoho-logo-web.png",
+    "sameAs": [
+      "https://twitter.com/ZohoForms",
+      "https://www.linkedin.com/showcase/zoho-forms",
+      "https://github.com/zoho"
+    ]
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.zoho.com/forms/pricing.html"
+  },
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "All",
+  "keywords": [
+    "forms",
+    "form builder",
+    "surveys",
+    "data collection",
+    "workflow automation",
+    "no-code",
+    "zoho",
+    "entries",
+    "submissions",
+    "reports"
+  ],
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": "https://forms.zoho.com/api/v1",
+    "serviceType": "REST API"
+  },
+  "featureList": [
+    "Drag-and-drop form creation",
+    "Conditional logic",
+    "Workflow automation",
+    "Payment collection",
+    "Offline mobile data capture",
+    "150+ app integrations",
+    "OAuth 2.0 authentication",
+    "Form entry management",
+    "Report generation",
+    "Webhook support"
+  ]
+}
