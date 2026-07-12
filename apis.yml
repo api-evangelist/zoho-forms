@@ -34,6 +34,10 @@ apis:
       - type: Authentication
         url: https://www.zoho.com/accounts/protocol/oauth.html
 common:
+  - type: VulnerabilityDisclosure
+    url: security/zoho-forms-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/zoho-forms-domain-security.yml
   - type: Website
     url: https://www.zoho.com/forms/
   - type: Documentation
