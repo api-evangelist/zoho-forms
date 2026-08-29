@@ -2,6 +2,17 @@ aid: zoho-forms
 name: Zoho Forms
 description: Online form builder with a REST API for managing forms, entries, reports, and integrating form data with other Zoho and third-party applications. Supports drag-and-drop form creation, conditional logic, workflow automation, payment collection, and offline mobile data capture with 150+ app integrations.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
