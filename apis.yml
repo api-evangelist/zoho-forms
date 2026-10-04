@@ -35,7 +35,7 @@ tags:
   - Form Builder
   - Surveys
   - Data Collection
-  - Workflow-Automation
+  - Workflow Automation
   - No-Code
   - Zoho
 tags_raw:
@@ -46,6 +46,7 @@ tags_raw:
   - Workflow Automation
   - No-Code
   - Zoho
+  - Workflow-Automation
 apis:
   - aid: zoho-forms:zoho-forms-api
     name: Zoho Forms API
