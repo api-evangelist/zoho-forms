@@ -96,3 +96,47 @@ addons:
   - name: Additional Users
     description: Extra user seats available for the Premium plan.
     type: recurring
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units:
+  - period
+  plans:
+  - name: Free
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Basic
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Standard
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Professional
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Premium
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
